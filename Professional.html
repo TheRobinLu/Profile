@@ -221,7 +221,7 @@
                   <p>Mckesson Canada</p>
                 </a>
                 <p>Sep 2014 - Now</p>
-                <button class="btn btn-outline-primary btn-sm float-left" data-toggle="collapse"
+                <button class="btn btn-outline-primary btn-sm float-left text-capitalize" data-toggle="collapse"
                   data-target="#Mckesson">More</button>
               </div>
               <div id="Mckesson" class="card-footer collapse text-left">
@@ -316,8 +316,8 @@
                   <p>Comwave Telecom Inc</p>
                 </a>
                 <p>Nov, 2008 - Sep, 2014</p>
-                <button class="btn btn-outline-primary btn-sm float-left" data-toggle="collapse"
-                  data-target="#Comwave">More</button>
+                <button class="btn btn-outline-primary btn-sm float-left text-capitalize" data-toggle="collapse"
+                  data-target="#Comwave" >More</button>
               </div>
               <div id="Comwave" class="card-footer collapse text-left">
 
@@ -343,7 +343,7 @@
                   <p>SS&C Technologies Inc</p>
                 </a>
                 <p>Jun, 2007 - Oct, 2008</p>
-                <button class="btn btn-outline-primary btn-sm float-left" data-toggle="collapse"
+                <button class="btn btn-outline-primary btn-sm float-left text-capitalize" data-toggle="collapse"
                   data-target="#SSNC">More</button>
               </div>
               <div id="SSNC" class="card-footer collapse text-left">
@@ -788,6 +788,17 @@
 
     // Initialize maps
     google.maps.event.addDomListener(window, 'load', regular_map);
+  </script>
+
+
+<script>
+  $(".btn[data-toggle='collapse']").click(function() {
+      if ($(this).text() == 'More') {
+          $(this).text('Less');
+      } else {
+          $(this).text('More');
+      }
+  });
   </script>
 
 </body>
