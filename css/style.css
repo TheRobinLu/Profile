@@ -8,10 +8,17 @@ header,
 #intro {
     /* background: url("/Profile/img/treasureflower.JPG") no-repeat center center fixed; */
     /* background: url("/img/treasureflower.JPG") no-repeat center center fixed; */
-    background: url("/Profile/img/waves.JPG") no-repeat center center fixed;
+    background: url("../img/back.JPG") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+.even {
+    background-color:#e8f6fc
+}
+
+.odd {
+    background-color:#e5fffa
+}
