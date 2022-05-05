@@ -22,3 +22,8 @@ header,
 .odd {
     background-color:#e5fffa
 }
+
+.card {
+    min-width: 240px;
+    
+}
